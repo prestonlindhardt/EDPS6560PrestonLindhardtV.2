@@ -1,40 +1,39 @@
+<!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
-      
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/main.css">
       
-
-          </head>
-
-      <div>       <title>Preston Lindhardt Portfolio</title>
-    <div>
-    </div>
-      </div>
-
+    <!-- I've added a green background to the div container so that I could easily visualize centering the images. -->     
+    <style>
+        .row div{
+            border: 5px solid white;
+            background-color: lawngreen;
+        }
+    </style>
       
+      <title>Preston Lindhardt Portfolio</title>
+    </head>
+    <body>
+
     
     <h1><center><strong>Preston S. Lindhardt</strong></center></h1>
-        <h2 style="color:crimson">Digital Portfolio</h2>
-    
-
-    
+        <h2 style="color:black"><center>Digital Portfolio</center></h2>
                                                     
 <div>
      <!-- links to subpages here. Using a table because I do not know how to achieve a horizontal unordered list. Contents to include in these pages include: about me, contact information, awards, and social media (linkedin). ***Additionally, these links are simply place holders. Individual links will be built out in time. For now, the about me page is the only functioning link. -->            
     
     <style>
         nav{
-            font-family: cursive;
+            font-family: sans-serif;
         }
     </style>
     
@@ -47,10 +46,7 @@
         <a href="pages/subpage2.html">portfolio</a>
         <span> &nbsp; </span>
         <a href="pages/subpage3.html">contact</a>
-        <span> &nbsp; </span>
-        <a href="pages/subpage4.html">resume</a></nav>
-    
-        </strong></center>
+        </nav></strong></center>
                                                      
                                                      
     <div> 
@@ -59,38 +55,47 @@
      <br>
  <p id="inline_ex" style="color: darkgreen; font-size: 25px;">These are examples of icons that I have created using Adobe Illustrator:</p>
             
-<div>
+<div class="container">
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <img id="resp_img" src="Images/Health-Mastery-Graphic.png">
+            </div>
+            <div class="col-2">
+                <img id="resp_img" src="Images/Wellness-Library-Logo-Blue-100.png">
+            </div>
+            <div class="col-2">
+                <img id="resp2_img" src="Images/Finalcial-Literacy-Bulb-Graphic-Blue.png">
+            </div>
+            <div class="col-2">
+                <img id="resp3_img" class="img-fluid" src="Images/Fitness-Tracker-logo-design-Blue.png">
+            </div>
+            <div class="col-2">
+                <img id="resp_img" class="img-fluid" src="Images/asthma-home-health-graphic.png">
+            </div>    
+        </div>  
+    </div>  
     
-    <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      <img height="auto" width="100px" alt="image of a health mastery" src="Images/Health-Mastery-Graphic.png">
-    </div>
-    <div class="col-sm">
-      <img height="auto" width="100px" alt="image of a wellness library book" src="Images/Wellness-Library-Logo-Blue-100.png">
-    </div>
-    <div class="col-sm">
-      <img height="auto" width="100px" alt="image of a financial literacy" src="Images/Finalcial-Literacy-Bulb-Graphic-Blue.png">
-    </div>
-    <div class="col-sm">
-      <img height="auto" width="100px" alt="image of a fitness tracker" src="Images/Fitness-Tracker-logo-design-Blue.png">
-    </div>
-    <div class="col-sm">
-      <img height="auto" width="100px" alt="image of a lungs" src="Images/asthma-home-health-graphic.png">
-    </div>
-  </div>
-</div>
+    
+    
     
     <!--Link to linkedin page will need to be removed from the main index page and placed within the contact info subpage.-->
     
     
 
     <a href="https://www.linkedin.com/in/preston-s-lindhardt-7b0b952b/" target="_blank">Connect with me on Linkedin</a>
+        
+        <p></p>
+        
    
+       
     
 </div>
-                                                                                          
-                                                                                          
+    <!--This video will be featured on another site.-->
+    <h2>Future Lindhardt Properties Site Experimentation:</h2>
+    <h6>Opening Video:</h6>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/X2B4gV4Nv4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+                                                                                    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -98,5 +103,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </div>
     
-    </div>
+    </body>
 </html>

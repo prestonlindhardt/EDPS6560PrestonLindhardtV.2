@@ -1,20 +1,47 @@
-body {
-  background-color: white;
+#resp_img{
+    position: absolute;
+    top: 45px;
+    right: auto;
+    left: 45px;
+    width: auto;
+    height: 100px;
+
 }
 
-h1 {
-  color: saddlebrown;
-  text-align: center;
-}
 
-h2{
+#resp2_img{
+    /* .svg - vector files - are responsive!!! */
+    display: block;
+    vertical-align: middle;
+    height: auto;
+    max-width: 150px;
+    width: 300px;
+    border: 0px;
+    padding: 25px;
+    margin: 5px;
     
-    text-align: center
+}
+
+#resp3_img{
+    /* .svg - vector files - are responsive!!! 
+    
+    Because of the dimensions of this image, I wanted to have more customization in its placement within its container however I am struggling to get any vertical movement. Not sure if you're able to assist with this.'*/
+    position: absolute;
+    top: 45px;
+    right: auto;
+    left: 30px;
+    width: auto;
+    height: 100px;
     
 }
 
-p {
-  font-family: monospace;
-  font-size: 20px;
-    text-align: left;
+
+
+/* Font Awesome Icon */
+
+#font_awe{
+    font-size: 200px;
+}
+
+
 }
